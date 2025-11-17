@@ -1,0 +1,23 @@
+path: /dataset/SIMD  # dataset root dir
+train: /dataset/SIMD/train/images  # train labels
+val: /dataset/SIMD/val/images  # val labels
+test: /dataset/SIMD/test/images  # test labels
+#USE YOUR DIR
+
+nc: 15
+names:
+  0: car
+  1: truck
+  2: van
+  3: longvehicle
+  4: bus
+  5: airliner
+  6: propeller
+  7: trainer
+  8: chartered
+  9: fighter
+  10: other
+  11: stairtruck
+  12: pushbacktruck
+  13: helicopter
+  14: boat

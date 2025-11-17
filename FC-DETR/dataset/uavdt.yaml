@@ -1,0 +1,11 @@
+path: D:/UAVDT/  # dataset root dir
+train: D:/UAVDT//UAVDT_train/images  # train labels
+val: D:/UAVDT//UAVDT_val/images  # val labels
+test: D:/UAVDT//UAVDT_val/images  # test labels
+#USE YOUR DIR
+
+nc: 3  # 类别数量
+names:
+  0: car
+  1: truck
+  2: bus
